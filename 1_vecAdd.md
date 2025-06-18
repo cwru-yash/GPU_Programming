@@ -50,7 +50,7 @@ Baseline GPU Architecture:
 
 Shader Cores:
     Witihn each SM we've our Warp schedulers that actually starts execution inside of each of these cores.
-    Then within these cores we've things like texture caches and l1 Caches, Shared Memory (sometimes called as scratchpad memory)  and we've our ALUs,  Double Precision (DP) Units, Special Functions (SF) Unit, Load Storage Units (LD/ST),e tc. 
+    Then within these cores we've things like texture caches and l1 Caches, Shared Memory (sometimes called as scratchpad memory)  and we've our ALUs,  Double Precision (DP) Units, Special Functions (SF) Unit, Load Storage Units (LD/ST),etc. 
 
 
 🔍 What is PTX and Why It’s Used?
@@ -64,7 +64,6 @@ Debugging & Analysis: Viewing PTX gives insights into what the GPU is really exe
 
 🧠 How to Inspect PTX for Your Code
 Compile to PTX:
-
 
 nvcc -ptx your_code.cu -o vectorAdd.ptx
 Read the PTX file:
